@@ -1,0 +1,2 @@
+1.新增終端
+2.打入git config --global user.name /eamil
