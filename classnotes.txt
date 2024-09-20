@@ -1,2 +1,4 @@
 1.新增終端
-2.打入git config --global user.name /eamil
+2.打入git config --global user.name /email
+
+登入複製專案:打開visual studio code>登入帳號>複製存放庫>新增終端
