@@ -1,7 +1,7 @@
 body{     
     background: #000; 
 } 
-.white{
+.White{
     color:#fff;
 } 
 #main{     
@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
  }
 header{     
-    background: url("../images/markinjapan.jpg");     
+    background: url("../images/tokyo.jpg");     
     border: solid #fff 3px;    
     padding: 5px 0px 10px 0px;  
 }
@@ -61,7 +61,7 @@ article{
 }
 
 #left h2{
-    border: 2px solid red;
+    border: 2px solid rgb(131, 131, 131);
     border-radius: 5px;
     background: linear-gradient(#ddd,#888,#333);
 }
