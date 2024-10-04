@@ -1,8 +1,8 @@
 body{     
     background: #000; 
 } 
-.White{     
-    color:#fff; 
+.white{
+    color:#fff;
 } 
 #main{     
     width: 680px;     
@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
  }
 header{     
-    background: url("../images/tokyo.jpg");     
+    background: url("../images/markinjapan.jpg");     
     border: solid #fff 3px;    
     padding: 5px 0px 10px 0px;  
 }
@@ -19,11 +19,14 @@ header{
     background: linear-gradient(#333,#000);
     margin-left: 3px;
     float: left;
+    padding: 0px;
 }
+
 #menu ul{
     list-style: none;
     padding: 0px;
     margin-left: 100px;
+    margin-top: 0px;
 }
 #menu ul li{
     display: inline;
@@ -37,4 +40,42 @@ header{
     float: left;
     display: block;
     text-align: center;
+    padding-top: 5px;
+}
+
+#menu a:hover{
+    color: #f00;
+    background: linear-gradient(#000,#666);
+}
+
+article{
+    width: 680px;
+    background-color: #fff;
+    height: 600px;
+}
+
+#left{
+    float: left;
+    width: 200px;
+    padding-left: 10px;
+}
+
+#left h2{
+    border: 2px solid red;
+    border-radius: 5px;
+    background: linear-gradient(#ddd,#888,#333);
+}
+
+#right{
+    float: right;
+    width: 450px;
+}
+
+footer{
+    clear: both;
+    width: 680px;
+    background: linear-gradient(#666,#000);
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
 }
