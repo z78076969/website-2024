@@ -12,6 +12,10 @@ server.get("/profolio", (req,res)=>{
         res.send("Profolio");  
 })
 
+var DB = require("nedb-promises"); 
+var Profolio = DB.create(__dirname+"/profolio.db");
+Profolio.insert({modal: "#portfolioModal1", imgSrc:"roundicons.png", heading:"Round Icons", text:"Graphic Design"})
+
 server.listen(80, ()=>{
     console.log("Server is running at port 80.");
 })
